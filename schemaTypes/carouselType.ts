@@ -16,7 +16,7 @@ export const carouselType = defineType({
         },
       ],
       validation: (Rule) => {
-        return Rule.required().min(1).max(10) && Rule.unique()
+        return [Rule.required(), Rule.min(1).max(10), Rule.unique()]
       },
     }),
   ],
