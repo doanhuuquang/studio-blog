@@ -5,7 +5,7 @@ import {compactPostType} from './compactPostType'
 import {postType} from './postType'
 import {recommendPostType} from './recommendPostType'
 import {blogOwnerInfoType} from './blogOwnerInfoType'
-import {socialType} from './socialType'
+import {socialMediaType} from './socialMediaType'
 
 export const schemaTypes = [
   postType,
@@ -15,5 +15,5 @@ export const schemaTypes = [
   compactPostType,
   recommendPostType,
   blogOwnerInfoType,
-  socialType,
+  socialMediaType,
 ]

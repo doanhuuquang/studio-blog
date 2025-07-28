@@ -26,6 +26,21 @@ export const blogOwnerInfoType = defineType({
       validation: (rule) => rule.required().email(),
     }),
     defineField({
+      name: 'address',
+      type: 'string',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: 'phone',
+      type: 'string',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: 'introduction',
+      type: 'string',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
       name: 'bio',
       type: 'text',
       validation: (rule) => rule.required(),

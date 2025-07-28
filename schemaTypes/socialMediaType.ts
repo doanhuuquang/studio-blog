@@ -1,8 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
-export const socialType = defineType({
-  name: 'social',
-  title: 'Social',
+export const socialMediaType = defineType({
+  name: 'socialMedia',
+  title: 'Social Media',
   type: 'document',
   fields: [
     defineField({
