@@ -4,6 +4,8 @@ import {categoryType} from './categoryType'
 import {compactPostType} from './compactPostType'
 import {postType} from './postType'
 import {recommendPostType} from './recommendPostType'
+import {blogOwnerInfoType} from './blogOwnerInfoType'
+import {socialType} from './socialType'
 
 export const schemaTypes = [
   postType,
@@ -12,4 +14,6 @@ export const schemaTypes = [
   carouselType,
   compactPostType,
   recommendPostType,
+  blogOwnerInfoType,
+  socialType,
 ]
