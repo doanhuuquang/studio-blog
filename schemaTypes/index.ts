@@ -6,6 +6,7 @@ import {postType} from './postType'
 import {recommendPostType} from './recommendPostType'
 import {blogOwnerInfoType} from './blogOwnerInfoType'
 import {socialMediaType} from './socialMediaType'
+import {shopInfoType} from './shopInfoType'
 
 export const schemaTypes = [
   postType,
@@ -16,4 +17,5 @@ export const schemaTypes = [
   recommendPostType,
   blogOwnerInfoType,
   socialMediaType,
+  shopInfoType,
 ]
